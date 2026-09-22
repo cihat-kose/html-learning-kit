@@ -5,16 +5,16 @@
         <title>Image Confirmation</title>
     </head>
     <body>
+        <form name="onay" action="" method="get">
         <table border="1">
             <caption><strong> Confirmation Form</strong></caption>
-                <tr><th><form name="onay" action="onay.php" method="get">
-                    <strong>User: </strong>
-                    <input type="text" name="kullan"> </th></tr></form>
-                    <tr><th><strong>Birthplace: </strong>
-                        <input type="password" name="sifre"> </th></tr>
+                <tr><th><label for="kullan">User:</label>
+                    <input id="kullan" type="text" name="kullan"></th></tr>
+                <tr><th><label for="sifre">Password:</label>
+                    <input id="sifre" type="password" name="sifre"></th></tr>
             </table>
             <input type="image" src="resimler/submit2png.png"
-            width="40" title="Confirm">
+            width="40" alt="Confirm" title="Confirm">
         </form>
     </body>
 </html>

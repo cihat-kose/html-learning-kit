@@ -28,10 +28,20 @@ The **HTML Learning Kit** covers essential topics such as:
   - `baglanti.html` – Link creation examples
   - `tablo.html` – Table design and form integration
   - `kurslar.html` – List of courses with section navigation
+  - `resim.html` – Image and favicon paths
+  - `resimlionay.html` – Image-button form
+  - `radiocheck.html` – Checkbox and radio button examples
+  - `formozellikleri.html` – Form attributes and textarea
+  - `tabloform.html` – Form controls inside a table
 
 - **Images:**
   - `resimler/submit.png` – Submit button
   - `resimler/submit2png.png` – Arrow button
+
+The repository contains only static HTML and the two image assets listed above.
+Forms submit back to their current page because no server-side application is
+included. The examples therefore demonstrate HTML controls and GET submission,
+not persistent registration or confirmation.
 
 ## Features
 - Basic HTML5 form and table examples

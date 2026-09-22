@@ -7,9 +7,11 @@
     <body>
         <h1>Checkbox</h1>
         <form name="onay">
-            <input type="checkbox" name="bulten">Subscribe to newsletter
+            <input type="checkbox" name="bulten" id="bulten">
+            <label for="bulten">Subscribe to newsletter</label>
             <br>
-            <input type="checkbox" name="medeni">Married
+            <input type="checkbox" name="medeni" id="medeni">
+            <label for="medeni">Married</label>
             <br>
             <br>
             <input type="submit" value="Confirm">
@@ -18,9 +20,12 @@
         <h1>Radio Buttons</h1>
         <form name="secenek">
             <h2>Your Favorite Sport</h2>
-            <input type="radio" name="spor" value="futbol" checked>Football
-            <input type="radio" name="spor" value="basketbol">Basketball
-            <input type="radio" name="spor" value="voleybol">Volleyball
+            <input type="radio" name="spor" id="futbol" value="futbol" checked>
+            <label for="futbol">Football</label>
+            <input type="radio" name="spor" id="basketbol" value="basketbol">
+            <label for="basketbol">Basketball</label>
+            <input type="radio" name="spor" id="voleybol" value="voleybol">
+            <label for="voleybol">Volleyball</label>
             <br>
             <br>
             <input type="submit" value="Send">
